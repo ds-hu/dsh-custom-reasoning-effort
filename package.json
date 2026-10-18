@@ -9,9 +9,9 @@
     "./package.json": "./package.json"
   },
   "engines": { "node": ">=20.19.0" },
-  "repository": { "type": "git", "url": "git+https://github.com/Pheobe-Southwood/dsh-custom-reasoning-effort.git" },
-  "bugs": { "url": "https://github.com/Pheobe-Southwood/dsh-custom-reasoning-effort/issues" },
-  "homepage": "https://github.com/Pheobe-Southwood/dsh-custom-reasoning-effort#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/ds-hu/dsh-custom-reasoning-effort.git" },
+  "bugs": { "url": "https://github.com/ds-hu/dsh-custom-reasoning-effort/issues" },
+  "homepage": "https://github.com/ds-hu/dsh-custom-reasoning-effort#readme",
   "keywords": ["deepseek-harness", "dsh", "llm", "reasoning-effort", "effort-memory", "models.dev", "settings", "cordis"],
   "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
   "dependencies": { "yaml": "^2.8.0" },

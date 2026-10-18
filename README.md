@@ -247,7 +247,7 @@ the plugin is removed.
 **One command installs and mounts the plugin:**
 
 ```bash
-dsh plugin --profile web add github:Pheobe-Southwood/dsh-custom-reasoning-effort
+dsh plugin --profile web add github:ds-hu/dsh-custom-reasoning-effort
 ```
 
 The profile flag belongs to the `plugin` subcommand, which is why it goes after
@@ -292,8 +292,8 @@ spec form pnpm accepts works — the GitHub shorthand, a git URL, a local
 checkout, or a packed tarball:
 
 ```bash
-dsh plugin --profile web add github:Pheobe-Southwood/dsh-custom-reasoning-effort
-dsh plugin --profile web add git+https://github.com/Pheobe-Southwood/dsh-custom-reasoning-effort.git
+dsh plugin --profile web add github:ds-hu/dsh-custom-reasoning-effort
+dsh plugin --profile web add git+https://github.com/ds-hu/dsh-custom-reasoning-effort.git
 dsh plugin --profile web add link:/path/to/dsh-custom-reasoning-effort
 npm pack && dsh plugin --profile web add ./dsh-custom-reasoning-effort-0.5.0.tgz
 ```
@@ -321,7 +321,7 @@ a repeated entry id, so a profile that lists both cannot boot:
 
 ```bash
 dsh plugin --profile web remove dsh-effort-memory
-dsh plugin --profile web add github:Pheobe-Southwood/dsh-custom-reasoning-effort
+dsh plugin --profile web add github:ds-hu/dsh-custom-reasoning-effort
 ```
 
 Nothing remembered is lost in the move: the levels live in the storage domain
